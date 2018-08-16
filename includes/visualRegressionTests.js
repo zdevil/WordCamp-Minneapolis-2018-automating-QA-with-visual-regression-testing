@@ -30,6 +30,7 @@ export default function () {
             siteNumMap.push(site);
         }
 
+	// TODO: use yargs
         for( let [key, site] of siteNumMap.entries() ){
             console.log(`[${colors.bold(key)}]: ${site}`);
         }

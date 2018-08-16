@@ -10,7 +10,7 @@ function backstopConfig(BackstopReferenceBaseUrl, BackstopTestUrl, pathsToTest, 
 
     const config = {
         'id': siteName,
-        asyncCaptureLimit: 5,
+        asyncCaptureLimit: 10,
         'viewports': [{
             'name': 'phone',
             'width': 320,

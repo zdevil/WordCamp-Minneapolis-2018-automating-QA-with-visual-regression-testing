@@ -1,13 +1,21 @@
 const sitesToTest = {
+    'return-to-pantheon-test': {
+        label: 'Return to Pantheon Test',
+        BackstopReferenceBaseUrl: 'https://dev-return-to-pantheon-test.pantheonsite.io/',
+        BackstopTestUrl: 'https://live-return-to-pantheon-test.pantheonsite.io/',
+        pathsToTest: [
+            "/2018/04/",
+            "/2018/04/04/hello-world/",
+        ]
+    },
     'andrew-woocommerce-playground': {
         label: 'Andrew WooCommerce Playground',
         BackstopReferenceBaseUrl: 'https://dev-andrew-woocommerce-playground.pantheonsite.io/',
         BackstopTestUrl: 'https://live-andrew-woocommerce-playground.pantheonsite.io/',
         pathsToTest: [
-            "/cart/",
             "/2018/05/18/hello-world/",
             "/product-category/accessories/",
-            "/product/vneck-tee/",
+            "/product/beanie/",
         ]
     },
     'wordpress-at-scale': {

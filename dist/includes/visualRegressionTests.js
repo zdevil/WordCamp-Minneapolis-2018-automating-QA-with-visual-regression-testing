@@ -25,6 +25,7 @@ exports.default = function () {
             siteNumMap.push(site);
         }
 
+        // TODO: use yargs
         for (let [key, site] of siteNumMap.entries()) {
             console.log(`[${_ansiColors2.default.bold(key)}]: ${site}`);
         }
