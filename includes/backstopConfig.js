@@ -2,7 +2,7 @@ export default function backstopConfig(BackstopReferenceBaseUrl, BackstopTestUrl
 
     const backstopDataDir = `backstop_data/${siteName}`;
     const delayTime = 1500;
-    const acceptableThreshold = 2.0;
+    const acceptableThreshold = 0.1;
 
     const config = {
         'id': siteName,
