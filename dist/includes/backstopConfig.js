@@ -7,6 +7,8 @@ exports.default = backstopConfig;
 function backstopConfig(BackstopReferenceBaseUrl, BackstopTestUrl, pathsToTest, siteName) {
 
     const backstopDataDir = `backstop_data/${siteName}`;
+    const delayTime = 1500;
+    const acceptableThreshold = 2.0;
 
     const config = {
         'id': siteName,
@@ -27,8 +29,8 @@ function backstopConfig(BackstopReferenceBaseUrl, BackstopTestUrl, pathsToTest, 
             'hideSelectors': [],
             'selectors': ['document'],
             'readyEvent': null,
-            'delay': 1500,
-            'misMatchThreshold': 0.1
+            'delay': delayTime,
+            'misMatchThreshold': acceptableThreshold
         }],
         'paths': {
             'ci_report': `${backstopDataDir}/ci_report`,
@@ -55,8 +57,8 @@ function backstopConfig(BackstopReferenceBaseUrl, BackstopTestUrl, pathsToTest, 
             'hideSelectors': [],
             'selectors': ['document'],
             'readyEvent': null,
-            'delay': 1500,
-            'misMatchThreshold': 0.1
+            'delay': delayTime,
+            'misMatchThreshold': acceptableThreshold
         };
     });
 
