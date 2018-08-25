@@ -10,7 +10,6 @@ You will need:
 * [Google Chrome](https://www.google.com/chrome/)
 * A live, web-accessible WordPress site
 * Another environment of the WordPress site above (e.g. local, staging, etc.)
-* To be comfortable with JavaScript and NodeJS
 
 ### Getting The Code
 
@@ -32,6 +31,8 @@ After setting up the repository locally (see above) you will need to:
     * `BackstopTestUrl` is your production site URL
     * Adjust `pathsToTest`, which is the array of URIs to test for each site
 1. Edit `includes/backstopConfig.js` to adjust viewports, delay, hidden selectors, etc.
+1. Run the command `npm run build`.
+    * This command needs to be run anytime you edit items in `includes`
 1. Run the command `npm run start`.
     * To test a single site enter its number from the list or enter `all` to test all sites in `includes/sitesToTest.js`
 
