@@ -1,6 +1,6 @@
 # Automating your QA with Visual Regression Testing Example Repository
 
-This repository is an example for my talk [Automating your QA with Visual Regression Testing](https://2018.minneapolis.wordcamp.org/session/automating-your-qa-with-visual-regression-testing/) at WordCamp Minneapolis 2018. It uses [BackstopJS](https://github.com/garris/BackstopJS/) and [Node JS](https://nodejs.org/) to automate visual QA.
+This repository is an example for my talk [Automating your QA with Visual Regression Testing](https://2018.minneapolis.wordcamp.org/session/automating-your-qa-with-visual-regression-testing/) at WordCamp Minneapolis 2018. It uses [BackstopJS](https://github.com/garris/BackstopJS/) and [Node JS](https://nodejs.org/) to automate visual QA. The slides for the talk can be found [here](https://goo.gl/V7QtNw).
 
 ## Prerequisites
 
